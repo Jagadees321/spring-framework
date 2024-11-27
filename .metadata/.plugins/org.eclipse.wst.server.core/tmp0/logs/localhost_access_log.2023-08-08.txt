@@ -1,0 +1,10 @@
+127.0.0.1 - - [08/Aug/2023:12:27:13 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:27:14 +0530] "GET /myfirst_webapp/Date.jsp HTTP/1.1" 200 217
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:27:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:27:27 +0530] "GET /myfirst_webapp/Date.jsp HTTP/1.1" 200 217
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:30:00 +0530] "GET /myfirst_webapp/find.jsp HTTP/1.1" 500 2349
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:30:35 +0530] "GET /myfirst_webapp/input.jsp HTTP/1.1" 200 336
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:30:41 +0530] "GET /myfirst_webapp/add.jsp?n1=65&n2=76 HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:31:48 +0530] "GET /myfirst_webapp/find.jsp HTTP/1.1" 500 2349
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:33:08 +0530] "GET /myfirst_webapp/inputfind.jsp HTTP/1.1" 200 268
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:12:33:13 +0530] "GET /myfirst_webapp/find.jsp?n=8 HTTP/1.1" 200 223

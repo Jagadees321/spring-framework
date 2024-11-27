@@ -1,0 +1,17 @@
+package com.org.foodapp.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class FoodItem {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String itemName;
+    private double price;
+    private String restaurantName;
+    private String itemCategory;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;

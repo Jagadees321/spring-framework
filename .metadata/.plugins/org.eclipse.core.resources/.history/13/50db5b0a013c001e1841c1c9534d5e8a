@@ -1,0 +1,10 @@
+package one_to_one_bidirec;
+
+public class Deletebuildingaddress {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

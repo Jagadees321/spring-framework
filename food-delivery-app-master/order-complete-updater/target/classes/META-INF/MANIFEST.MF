@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: AtluriMukesh
+Build-Jdk: 21.0.1
+Implementation-Title: order-complete-updater
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: demo
+Implementation-Vendor: Pivotal Software, Inc.
+Created-By: Maven Integration for Eclipse
+

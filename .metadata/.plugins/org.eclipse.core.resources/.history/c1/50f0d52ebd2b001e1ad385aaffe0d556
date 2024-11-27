@@ -1,0 +1,28 @@
+package myfirst_webapp;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
+@WebServlet("/ex")
+public class Excerise extends GenericServlet{
+
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+		String name=req.getParameter("n");
+		String age=req.getParameter("a");
+		String gender=req.getParameter("g");
+		String mail=req.getParameter("m");
+		PrintWriter pw=res.getWriter();
+		pw.write("<html><body><pre><h1>"+"name   ="+name+"</h1></pre></body></html>");
+		pw.write("<html><body><pre><h1>"+"age    ="+age+"</h1></pre></body></html>");
+		pw.write("<html><body><pre><h1>"+"gender ="+gender+"</h1></pre></body></html>");
+		pw.write("<html><body><pre><h1>"+"mail   ="+mail+"</h1></pre></body></html>");
+		
+	}
+
+}

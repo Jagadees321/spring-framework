@@ -1,0 +1,10 @@
+package spring_ioc_001;
+
+public class Laptoptest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

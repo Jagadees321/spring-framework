@@ -1,0 +1,127 @@
+<%@ page import="com.org.foodapp.dto.FoodItem" %>
+<%@ page import="java.util.List" %>
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+   .h1{
+   
+     display:flex;
+     height:15vh;
+     justify-content:space-between;
+     align-items:center;
+     background-color: #00ffff;
+     position: relative;
+     overflow: hidden;
+     
+   }
+   .header{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+ }
+ .logo {
+      width: 20vh;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+ .a{
+  text-decoration:none ;
+			align-content: center;
+			padding: 10px;
+			text-align: center;
+			margin: 10px auto;
+			width: 160px;
+			background-color: whitesmoke;
+			display: inline-block;
+			text-transform: uppercase;
+			border-radius: 20px;
+ }
+ .con{
+ width:40vh;
+ height:80vh;
+ background-color:whitesmoke;
+ border: 2px solid cyan;
+ }
+ .items{
+   margin:-80vh 0vh 0vh 41vh ;
+   display: flex;
+ }
+ 
+ .itemslist{
+    width: 40vh;
+    height: 50vh;
+    overflow: hidden;
+    
+ }
+ .img{
+    width: 20vh;
+    height: 20vh;
+ }
+ .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+ 
+</style>
+</head>
+<body>
+<header>
+<div class="h1">
+  <img src="" 
+  alt="Description of the image"   >
+
+<div class="header">
+   <a href="Home.jsp" class="a">Home</a>
+   <a href="About.jsp" class="a">About</a>
+   <a href="fooditems.jsp" class="a">fooditems</a>
+   <a href="userdetails.jsp" class="a">user detials</a>
+   <a href="login.jsp" class="a">logout</a>
+   
+</div>
+</div>
+
+</header>
+<div>
+<div class="con">
+   <a href="components"> allCatogorys</a>
+   <ul>
+   <li><a href="veg">Veg</a></li>
+   <li><a href="nonveg">Non-Veg</a></li>
+   <li><a href="curry">currys</a></li>
+   </ul>
+</div>
+<div class="items">
+
+    <div class="container">
+        <c:forEach var="foodItem" items="${foodItems}">
+            <div class="card">
+                <img src="${foodItem.img}" alt="Food Image" width="200px" height="200px">
+                <h3>${foodItem.itemName}</h3>
+                <p>Price: $${foodItem.price}</p>
+                <button onclick="add">Cart</button>
+            </div>
+        </c:forEach>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

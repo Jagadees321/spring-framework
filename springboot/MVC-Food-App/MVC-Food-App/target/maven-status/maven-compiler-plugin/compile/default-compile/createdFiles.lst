@@ -1,0 +1,17 @@
+com\jsp\foodapp\controller\ProductController.class
+com\jsp\foodapp\dto\Item.class
+com\jsp\foodapp\controller\FoodOrderController.class
+com\jsp\foodapp\dao\ItemDao.class
+com\jsp\foodapp\dto\Product.class
+com\jsp\foodapp\controller\UserController.class
+com\jsp\foodapp\dto\Admin.class
+com\jsp\foodapp\dao\ProductDao.class
+com\jsp\foodapp\dto\FoodOrder.class
+com\jsp\foodapp\dto\User.class
+com\jsp\foodapp\helper\WebInitializer.class
+com\jsp\foodapp\controller\ItemController.class
+com\jsp\foodapp\dao\AdminDao.class
+com\jsp\foodapp\controller\AdminController.class
+com\jsp\foodapp\dao\FoodOrderDao.class
+com\jsp\foodapp\helper\Config.class
+com\jsp\foodapp\dao\UserDao.class

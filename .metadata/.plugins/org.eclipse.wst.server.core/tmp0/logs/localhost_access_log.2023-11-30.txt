@@ -1,0 +1,13 @@
+127.0.0.1 - - [30/Nov/2023:12:47:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:12:47:03 +0530] "GET /spring_mvc/WEB-INF/helloworld.jsp HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:12:47:03 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [30/Nov/2023:12:51:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:12:51:16 +0530] "GET /spring_mvc/WEB-INF/helloworld.jsp HTTP/1.1" 404 682
+127.0.0.1 - - [30/Nov/2023:12:53:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:12:53:34 +0530] "GET /spring_mvc/WEB-INF/helloworld.jsp HTTP/1.1" 404 682
+127.0.0.1 - - [30/Nov/2023:12:54:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:12:54:46 +0530] "GET /spring_mvc/WEB-INF/classes/spring_mvc/Mycontroller.java HTTP/1.1" 404 682
+127.0.0.1 - - [30/Nov/2023:17:37:13 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:17:37:15 +0530] "GET /spring_mvc/NewFile.jsp HTTP/1.1" 200 203
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:17:37:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [30/Nov/2023:17:37:17 +0530] "GET /spring_mvc/helo? HTTP/1.1" 404 682

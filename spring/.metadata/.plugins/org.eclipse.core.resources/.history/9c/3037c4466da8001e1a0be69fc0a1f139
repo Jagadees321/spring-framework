@@ -1,0 +1,21 @@
+package com.org.restapidemo;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Swingdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         A a=new A();
+	}
+
+}
+class A extends JFrame{
+	A(){
+		JLabel a=new JLabel("hello supriya");
+		add(a);
+		setVisible(true);
+		setSize(400, 600);
+	}
+}

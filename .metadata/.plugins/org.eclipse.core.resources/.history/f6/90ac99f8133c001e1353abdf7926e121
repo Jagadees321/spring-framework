@@ -1,0 +1,11 @@
+package many_to_many;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Subject {
+    @Id
+    private int id;
+    
+}

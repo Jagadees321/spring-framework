@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="demo.model.UserInfo"/>
+    <fullyQualifiedTypeName name="demo.model.ItemQuantity"/>
+    <fullyQualifiedTypeName name="demo.model.CreditCardInfo"/>
+</qualifiedTypeNameHistroy>

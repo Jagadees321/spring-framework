@@ -1,0 +1,17 @@
+127.0.0.1 - - [03/Aug/2023:13:50:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:13:50:28 +0530] "GET /myfirst_webapp/cookie.jsp HTTP/1.1" 200 272
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:13:50:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:13:50:35 +0530] "GET /myfirst_webapp/cs1?name=jagga HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:13:50:48 +0530] "GET /myfirst_webapp/cs2 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:13:50:51 +0530] "GET /myfirst_webapp/cs2 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:13:50:56 +0530] "GET /myfirst_webapp/cs2 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2023:14:14:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:14:29 +0530] "GET /myfirst_webapp/hiddenform1.jsp HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:14:36 +0530] "GET /myfirst_webapp/hif1?name=jagadeesh+royal HTTP/1.1" 404 774
+127.0.0.1 - - [03/Aug/2023:14:15:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:15:26 +0530] "GET /myfirst_webapp/hiddenform1.jsp HTTP/1.1" 200 282
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:15:29 +0530] "GET /myfirst_webapp/hif1?name=jagadeesh+royal HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:15:36 +0530] "GET /myfirst_webapp/hif2?n=+jagadeesh+royal+ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:15:39 +0530] "GET /myfirst_webapp/hif2?n=+jagadeesh+royal+ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:15:40 +0530] "GET /myfirst_webapp/hif2?n=+jagadeesh+royal+ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:14:15:42 +0530] "GET /myfirst_webapp/hif2?n=+jagadeesh+royal+ HTTP/1.1" 200 -

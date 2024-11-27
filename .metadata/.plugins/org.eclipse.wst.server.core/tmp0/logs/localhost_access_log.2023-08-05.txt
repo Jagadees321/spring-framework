@@ -1,0 +1,17 @@
+127.0.0.1 - - [05/Aug/2023:10:41:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:10:41:59 +0530] "GET /myfirst_webapp/Date.jsp HTTP/1.1" 200 213
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:10:41:59 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:10:42:44 +0530] "GET /myfirst_webapp/Date.jsp HTTP/1.1" 200 217
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:10:52:45 +0530] "GET /myfirst_webapp/myradio.jsp HTTP/1.1" 200 431
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:10:53:05 +0530] "GET /myfirst_webapp/myradio.jsp HTTP/1.1" 200 427
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:10:53:22 +0530] "GET /myfirst_webapp/myradio.jsp HTTP/1.1" 200 431
+127.0.0.1 - - [05/Aug/2023:11:10:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:10:43 +0530] "GET /myfirst_webapp/getradio.jsp HTTP/1.1" 500 2521
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:11:07 +0530] "GET /myfirst_webapp/myradio.jsp HTTP/1.1" 200 447
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:11:18 +0530] "GET /myfirst_webapp/getradio.jsp?n1=8&n2=3&val=sub HTTP/1.1" 200 167
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:11:26 +0530] "GET /myfirst_webapp/getradio.jsp?n1=8&n2=3&val=add HTTP/1.1" 200 171
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:13:00 +0530] "GET /myfirst_webapp/getradio.jsp HTTP/1.1" 500 2521
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:13:44 +0530] "GET /myfirst_webapp/myradio.jsp HTTP/1.1" 200 447
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:13:51 +0530] "GET /myfirst_webapp/getradio.jsp?n1=8&n2=3&val=add HTTP/1.1" 200 179
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:13:57 +0530] "GET /myfirst_webapp/getradio.jsp?n1=8&n2=3&val=sub HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [05/Aug/2023:11:35:55 +0530] "GET /myfirst_webapp/includetest.jsp HTTP/1.1" 200 316

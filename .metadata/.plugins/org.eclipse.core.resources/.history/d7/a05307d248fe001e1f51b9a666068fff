@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <div id="student-list"></div>
+
+    <script>
+        // Fetch student details from the API
+        fetch('http://localhost:8080/student')
+            .then(response => response.json())
+            .then(data => {
+                // Render student details
+                const studentList = document.getElementById('student-list');
+                data.forEach(student => {
+                    const studentDiv = document.createElement('div');
+                    studentDiv.innerHTML = `
+                        <p>ID: ${student.id}</p>
+                        <p>Name: ${student.name}</p>
+                        <p>Age: ${student.age}</p>
+                        <p>Grade: ${student.grade}</p>
+                        <hr>
+                    `;
+                    studentList.appendChild(studentDiv);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching student details:', error);
+            });
+    </script>
+</body>
+</html>

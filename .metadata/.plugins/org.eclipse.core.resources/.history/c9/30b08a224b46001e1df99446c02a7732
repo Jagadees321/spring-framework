@@ -1,0 +1,59 @@
+package spring_mvc;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Mycontroller {
+	
+	
+	    @RequestMapping("/add")
+		public void service1(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+			
+			double n1=Double.parseDouble(req.getParameter("n1"));
+			double n2=Double.parseDouble(req.getParameter("n2"));
+			
+			PrintWriter p=res.getWriter();
+			p.write("<h1>div is:"+ (n1+n2)+"</h1>");
+			
+		}
+	    @RequestMapping("/sub")
+		public void service2(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+
+			double n1 = Double.parseDouble(req.getParameter("n1"));
+			double n2 = Double.parseDouble(req.getParameter("n2"));
+
+			PrintWriter p = res.getWriter();
+			p.write("<h1>div is:" + (n1-n2) + "</h1>");
+
+		}
+	    @RequestMapping("/mul")
+		public void service3(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+
+			double n1 = Double.parseDouble(req.getParameter("n1"));
+			double n2 = Double.parseDouble(req.getParameter("n2"));
+
+			PrintWriter p = res.getWriter();
+			p.write("<h1>div is:" + (n1*n2) + "</h1>");
+
+		}
+	    @RequestMapping("/div")
+		public void service4(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+
+			double n1 = Double.parseDouble(req.getParameter("n1"));
+			double n2 = Double.parseDouble(req.getParameter("n2"));
+
+			PrintWriter p = res.getWriter();
+			p.write("<h1>div is:" + (n1/n2) + "</h1>");
+
+		}
+		
+
+}

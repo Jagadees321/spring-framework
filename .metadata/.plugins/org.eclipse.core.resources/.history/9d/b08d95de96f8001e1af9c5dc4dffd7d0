@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+            <bean id='c' class="spring_ioc_001.Cat">
+            <property name="color" value="black"></property>
+            <property name="name" value="cat1"></property>
+            <property name="age" value="11"></property>
+            </bean>
+            <bean id='d' class="spring_ioc_001.Dog">
+            <constructor-arg value="cc" name="name"></constructor-arg>
+            <constructor-arg value="12" name="h"></constructor-arg>
+            <constructor-arg value="bb" name="breed"></constructor-arg>
+            </bean>
+            
+            <bean id='cr' class="spring_ioc_001.Car" >
+            <property name="e" ref="en"></property>
+            </bean>
+            
+            <bean id='en' class="spring_ioc_001.Engine" ></bean>
+            
+            <bean id='os1' class="spring_ioc_001.Os" >
+            <property name="name" value="window"></property>
+            </bean>
+            
+            <bean id='os2' class="spring_ioc_001.Os" >
+            <property name="name" value="IOS"></property>
+            </bean>
+            <bean id='l' class="spring_ioc_001.Laptop" >
+            <constructor-arg ref="os1"></constructor-arg>
+            </bean>
+		
+
+		
+</beans>

@@ -1,0 +1,10 @@
+package many_to_many;
+
+public class SaveStudentSubject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
